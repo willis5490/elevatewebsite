@@ -1,0 +1,89 @@
+.fa-3x{
+    color: #59c5aa;
+}
+.chair-header{
+    color: #59c5aa;
+    font-size: 20px;
+    padding-left:20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.chairH1{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    margin-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+.chairCardHeaders{
+    color: #59c5aa;
+}
+#chaircards{
+    padding-bottom: 180px;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.chaircardbody{
+    background-color: #E1E1E1;
+    box-shadow: none;
+}
+.chairpics{
+    width: 320px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+#payoptionHeader{
+    margin-top: 75px;
+}
+#chairbody{
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.uk-child-width-1-4{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.paymentcontainer{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 50px;
+}
+.ChairIcons{
+    color: #59c5aa;
+}
+
+ /* mobile response */
+ @media only screen and (max-width: 480px) { 
+    .chairH1{
+        margin-top: 40px;
+        font-size: 25px;
+    }
+    .chair-header{
+        color: #59c5aa;
+        font-size: 15px;
+        padding-left:20%;
+        padding-right: 20%;
+        text-align: center;
+    }
+    .chairCardHeaders{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    #chaircards{
+        padding-bottom: 0px;
+    }
+    #chairButton{
+        font-size: 15px;
+    }
+    .ChairIcons{
+       width: 60px;
+       height: 60px;
+    }
+    
+}

@@ -1,0 +1,39 @@
+#teamBody{
+    margin-top: 80px;
+}
+#teamHeader{
+    font-size: 25px;
+    color: #59c5aa;
+}
+#teamsubHeader{
+    font-size: 20px;
+    color: #59c5aa;
+}
+.teamPics{
+    width: 580px;
+    height: 386px;;
+}
+
+ /* mobile response */
+
+ @media only screen and (max-width: 900px) { 
+    #teamBody{
+        font-size: 15px;
+    }
+    
+ }
+ @media only screen and (max-width: 700px) { 
+   
+    
+ }
+
+
+ @media only screen and (max-width: 480px) { 
+    #teamBody{
+        margin-top: 40px;
+    }
+    .teamPics{
+        width: 280px;
+        height: 186px;;
+    }
+}

@@ -1,0 +1,21 @@
+
+
+#reviewsbody{
+    margin-top: 40px;
+}
+
+.reviewpics{
+    width: 461px;
+    height: 536px;
+}
+
+ /* mobile response */
+ @media only screen and (max-width: 480px) { 
+   p{
+       font-size: 15px;
+   }
+   .reviewpics{
+    width: 361px;
+    height: 436px;
+}
+}

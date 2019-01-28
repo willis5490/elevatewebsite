@@ -1,0 +1,63 @@
+.uk-offcanvas-close{
+   font-size: 15px;
+
+}
+#header{
+    background-color: #212121;
+}
+#logo-nav{
+    width: 170px;
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.uk-navbar-nav>li>a:hover {
+    color: #59c5aa
+}
+
+.uk-button{
+    background-color: #59c5aa;
+    font-size: .875rem;
+}
+.uk-button:hover{
+    background-color: #212121;
+    color: #59c5aa
+}
+#logoMobile{
+    margin-bottom: 13px;
+}
+#mobileMenu{
+    margin-top: 50%;
+}
+ /* mobile response */
+ @media only screen and (max-width: 1325px) { 
+    .uk-button{
+       font-size: 12px;
+   }
+   .uk-navbar-nav>li>a {
+    font-size: 12px;
+    padding: 8px;
+    } 
+
+
+ }
+
+ @media only screen and (max-width: 1160px) { 
+    .uk-button{
+       font-size: 11px;
+       
+   }
+   .uk-navbar-nav>li>a {
+    font-size: 11px;
+    padding: 5px;
+    }
+    
+
+ }
+
+ @media only screen and (max-width: 480px) { 
+    .uk-button{
+       font-size: 8px;
+   }
+
+ }

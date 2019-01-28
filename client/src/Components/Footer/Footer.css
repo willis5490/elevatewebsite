@@ -1,0 +1,74 @@
+#secondfooter{
+    margin-top:0px;
+    background-color: #5D5D5D;
+    color: #EAEAEA;
+    margin-top: 100px;
+    padding: 30px;
+    
+}
+
+#footer-logo{
+    height: 50px;
+    widows: 50px;
+}
+#leftfooter{
+    margin-top: 30px;
+    
+}
+#rightfooter{
+    margin-top: 40px;
+}
+.footletters{
+    font-size: 15px;
+}
+.fab{
+    padding: 10px;
+    color: #EAEAEA;
+}
+.footheaders{
+    color: #EAEAEA;
+}
+
+.fab:hover{
+    color: #59c5aa;
+}
+.contactNavLetters{
+    color: #59c5aa;
+}
+.contactNavLetters:hover{
+    color: #59c5aa;
+}
+
+@media only screen and (max-width: 935px) { 
+    
+}
+
+
+ /* mobile response */
+ @media only screen and (max-width: 480px) { 
+    
+    .uk-width-1-3{
+        width: 100%;
+    }
+ 
+    .footheaders{
+        font-size: 17px;
+    }
+    .contactNavLetters{
+        font-size: 12px;
+    }
+    #rightfooter{
+        margin-top: 20px;
+    }
+    #leftfooter{
+        margin-top: 20px;
+    }
+    .fab{
+       padding-left: 10px;
+       padding-top: 1px;
+       padding-bottom: 1px;
+    }
+    #copywritemobile{
+        font-size: 15px;
+    }
+}

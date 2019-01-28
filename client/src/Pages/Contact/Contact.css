@@ -1,0 +1,73 @@
+
+#send-button{
+    margin-left: 31.2%;
+    background-color: #59c5aa;
+    margin-bottom: -40px;
+}
+#send-button:hover{
+    background-color: black;
+    color: #59c5aa
+}
+#formheader{
+    text-align: center;
+}
+.uk-fieldset {
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-top: 50px;
+}
+.contactHeader{
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: 25px;
+    color: #59c5aa;
+}
+.uk-heading-line{
+    font-size: 40px;
+}
+.ContactInputBody{
+   background-color: #F0F0F0 !important;
+}
+
+@media only screen and (max-width: 1250px) { 
+    #send-button{
+        width: 37%
+    }
+}
+@media only screen and (max-width: 900px) { 
+    .uk-fieldset {
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 10px;
+    }
+}
+
+
+
+/* mobile response */
+ @media only screen and (max-width: 480px) { 
+    #send-button{
+        margin-left: 10%;
+        background-color: #59c5aa;
+        margin-bottom: -40px;
+        width: 80%;
+        font-size: 12px;
+    }
+    .contactHeader{
+        font-size: 15px;
+    }
+    #formheader{
+        text-align: center;
+        font-size: 15px;
+    }
+    .uk-heading-line{
+        font-size: 25px;
+
+    }
+    .uk-fieldset {
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-top: 10px;
+    }
+}

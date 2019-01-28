@@ -1,0 +1,60 @@
+import React, { Component } from 'react';
+import './Footer.css'
+
+class Footer extends Component {
+
+  // render nav
+  render() {
+    return (
+      <div>
+      
+        <nav id="secondfooter" className="uk-navbar-container uk-text-center uk-visible@m" uk-navbar='true' uk-navbar="mode: click">
+        
+          <div id="leftfooter" className="uk-width-1-3 uk-text-center  uk-visible@m">
+                <img id="footer-logo" src='../Images/download.png'></img>
+                <h4 id='' className='footheaders '>© 2019 Elevate Bodywork LLC. All rights reserved.</h4>
+          </div>
+          <div className="uk-width-1-3 uk-text-center uk-visible@m footletters ">
+                <h3 className='footheaders'>Contact Info</h3>
+                <a className='contactNavLetters' href='/contact'><p>Email: JILL@ELEVATEBODYWORK.COM</p></a>
+                <a className='contactNavLetters' href="tel:303-928-9739"><p>Phone: (303) 928-9739</p></a>
+                
+          </div>
+          <div id='rightfooter' className="uk-width-1-3 uk-text-center uk-visible@m footletters">
+                <h3 className='footheaders'>Follow Us</h3>
+                <a href = ""><i class="fab fa-facebook fa-2x footheaders"></i></a>
+                    <a href = ""><i class="fab fa-2x fa-linkedin footheaders"></i></a>
+          </div>
+         
+        </nav>
+
+        <nav id="secondfooter" className="uk-navbar-container uk-text-center uk-align-center uk-hidden@m" uk-navbar='true' uk-navbar="mode: click">
+        {/* mobile view */}
+        <div className="uk-hidden@m">
+              <div id="leftmobilefooter" className="uk-width-1-1 uk-text-center uk-align-center">
+                <img id="footer-logo" src='../Images/download.png'></img>
+                <h4 id='copywritemobile' className='footheaders'>© 2019 Elevate Bodywork LLC. All rights reserved.</h4>
+          </div>
+          <div className="uk-width-1-1 uk-text-center centermobilefoot">
+                <h3 className='footheaders uk-margin-remove'>Contact Info</h3>
+                <a href='/contact'><p className='contactNavLetters uk-margin-remove'>Email: JILL@ELEVATEBODYWORK.COM</p></a>
+                <a href="tel:303-928-9739"><p className='contactNavLetters ' >Phone: (303) 928-9739</p></a>
+               
+          </div>
+          <div id='rightmobilefooter' className="uk-width-1-1 uk-text-center">
+                <h3 className='footheaders'>Follow Us</h3>
+                    <a href = ""><i class="fab fa-facebook fa-2x footheaders"></i></a>
+                    <a href = ""><i class="fab fa-linkedin fa-2x footheaders"></i></a>
+                   
+          </div>
+            </div>
+        
+        </nav>
+        
+      </div>
+    );
+  }
+}
+
+
+export default Footer;
