@@ -16,7 +16,7 @@
     
 }
 #rightfooter{
-    margin-top: 40px;
+    margin-top: 35px;
 }
 .footletters{
     font-size: 15px;
@@ -38,9 +38,18 @@
 .contactNavLetters:hover{
     color: #59c5aa;
 }
+#centerfooter{
+    margin-top: 35px;
+}
+#copyfooter{
+    padding-top: 15px;
+    font-size: 20px;
+}
 
 @media only screen and (max-width: 935px) { 
-    
+    #copyfooter{
+        font-size: 10px;
+    }
 }
 
 

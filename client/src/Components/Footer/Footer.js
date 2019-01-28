@@ -12,9 +12,9 @@ class Footer extends Component {
         
           <div id="leftfooter" className="uk-width-1-3 uk-text-center  uk-visible@m">
                 <img id="footer-logo" src='../Images/download.png'></img>
-                <h4 id='' className='footheaders '>© 2019 Elevate Bodywork LLC. All rights reserved.</h4>
+                <h4 id='copyfooter' className='footheaders uk-margin-remove-top'>© 2019 Elevate Bodywork LLC. All rights reserved.</h4>
           </div>
-          <div className="uk-width-1-3 uk-text-center uk-visible@m footletters ">
+          <div id='centerfooter' className="uk-width-1-3 uk-text-center uk-visible@m footletters ">
                 <h3 className='footheaders'>Contact Info</h3>
                 <a className='contactNavLetters' href='/contact'><p>Email: JILL@ELEVATEBODYWORK.COM</p></a>
                 <a className='contactNavLetters' href="tel:303-928-9739"><p>Phone: (303) 928-9739</p></a>
