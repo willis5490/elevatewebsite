@@ -8,11 +8,17 @@ class Home extends Component {
   render() {
     return (
         <div>
-        <img id="home-picture" src = "../Images/test1.jpg"></img>
-        <img id="home-logo" src = "../Images/download.png"></img>
-        <h1 id='home-statement'><b>DENVERS PREMIER ON-SITE<br></br> CHAIR MASSAGE</b></h1>
-       
-        <a href='/chair-massage'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
+        <img id="home-picture" src = "../Images/test1.jpg" alt='sand swirls chair massage elevate'></img>
+        
+        
+        <div id='mainlogo' className='uk-text-center uk-align-center'>
+          <img id="home-logo" src = "../Images/download.png" alt='Elevate chair massage main logo'></img>
+          <h1 id='home-statement'><b>DENVERS PREMIER ON-SITE<br></br> CHAIR MASSAGE</b></h1>
+          <a href='/chair-massage'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
+        </div>
+
+      
+        
         <div className="uk-container">
         <div id="homeBody" className="uk-panel">
           <h1 id='homeHeader'>CORPORATE ON-SITE AND MOBILE CHAIR MASSAGE<br></br> <b>BY ELEVATE BODYWORK + CHAIR MASSAGE</b></h1>
@@ -32,7 +38,7 @@ class Home extends Component {
               <div id='homebottom' className="uk-text-center" uk-grid='true'>
           <div className="uk-width-1-2">
               <div className="uk-card uk-card-default uk-card-body">
-                <img className='home-card-pics' src="..\Images\elevate-employee3.jpg"></img>
+                <img className='home-card-pics' src="..\Images\elevate-employee3.jpg" alt='Chair massage being given in Denver, CO'></img>
                 <h3 className='homecardHeader'>ON-SITE MASSAGE ADDRESSES PHYSICAL, MENTAL + EMOTIONAL CONCERNS</h3>
                 <ul className='homelists'>
                   <li>Carpal Tunnel Syndrome</li>
@@ -44,7 +50,7 @@ class Home extends Component {
           </div>
           <div className="uk-width-1-2">
               <div className="uk-card uk-card-default uk-card-body">
-                <img className='home-card-pics' src="..\Images\jill-homepage.jpg"></img>
+                <img className='home-card-pics' src="..\Images\jill-homepage.jpg"  alt='Chair massage being given in Denver, CO'></img>
                 <h3 className='homecardHeader'>ADDITIONAL BENEFITS ENHANCES WELLNESS FOR EMPLOYEES</h3>
                 <ul className='homelists'>
                   <li>Stress Alleviation</li>

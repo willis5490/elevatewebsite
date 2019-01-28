@@ -10,7 +10,7 @@ class Team extends Component {
       <div id='teamBody' className="uk-text-center"  uk-grid='true'>
         <div className="uk-width-1-2">
           <div>
-            <img className='teamPics' src='../Images/jill-teampage.jpg'></img>
+            <img className='teamPics' src='../Images/jill-teampage.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
           </div>
         </div>
         <div className="uk-width-1-2">
@@ -25,22 +25,22 @@ class Team extends Component {
         </div>
         <div className="uk-width-1-2">
           <div>
-            <img className='teamPics' src='../Images/teampage1.jpg'></img>
+            <img className='teamPics' src='../Images/teampage1.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
           </div>
         </div>
         <div className="uk-width-1-2">
           <div>
-            <img className='teamPics' src='../Images/teampage3.jpg'></img>
+            <img className='teamPics' src='../Images/teampage3.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
           </div>
         </div>
         <div className="uk-width-1-2">
           <div>
-            <img className='teamPics' src='../Images/teampage2.jpg'></img>
+            <img className='teamPics' src='../Images/teampage2.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
           </div>
         </div>
         <div className="uk-width-1-2">
           <div>
-            <img className='teamPics' src='../Images/employees1.jpg'></img>
+            <img className='teamPics' src='../Images/employees1.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
           </div>
         </div>
       </div>

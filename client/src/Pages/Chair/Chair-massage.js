@@ -49,16 +49,16 @@ class ChairMassage extends Component {
           
             <div class="uk-child-width-1-4 uk-text-center uk-visible@m" uk-grid='true'>
               <div>
-                <img className='chairpics' src="../Images/chair1.png"></img>
+                <img className='chairpics' src="../Images/chair1.png"  alt='Chair massage being given in Denver, CO'></img>
               </div>
               <div>
-                <img className='chairpics' src="../Images/chair2.png"></img>
+                <img className='chairpics' src="../Images/chair2.png"  alt='Chair massage being given in Denver, CO'></img>
               </div>
               <div>
-                <img className='chairpics' src="../Images/chair3.png"></img>
+                <img className='chairpics' src="../Images/chair3.png"  alt='Chair massage being given in Denver, CO'></img>
               </div>
               <div>
-                <img className='chairpics' src="../Images/chair4.jpg"></img>
+                <img className='chairpics' src="../Images/chair4.jpg"  alt='Chair massage being given in Denver, CO'></img>
               </div>
             </div>
             <div className="paymentcontainer">

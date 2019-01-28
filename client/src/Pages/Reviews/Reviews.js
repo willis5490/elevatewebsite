@@ -33,10 +33,10 @@ class Reviews extends Component {
             </div>
             <div id='reviewsbody' class="uk-child-width-1-2 uk-text-center uk-visible@m" uk-grid='true'>
               <div>
-               <img className='reviewpics' src='../Images/elevate-employee1.jpg'></img>
+               <img className='reviewpics' src='../Images/elevate-employee1.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
               </div>
               <div>
-               <img className='reviewpics' src='../Images/elevate-employee2.jpg'></img>
+               <img className='reviewpics' src='../Images/elevate-employee2.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
               </div>
               
             </div>
@@ -66,10 +66,10 @@ class Reviews extends Component {
             </div>
             <div id='reviewsbody' class="uk-child-width-1-1 uk-text-center uk-hidden@m" uk-grid='true'>
               <div>
-               <img className='reviewpics' src='../Images/elevate-employee1.jpg'></img>
+               <img className='reviewpics' src='../Images/elevate-employee1.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
               </div>
               <div>
-               <img className='reviewpics' src='../Images/elevate-employee2.jpg'></img>
+               <img className='reviewpics' src='../Images/elevate-employee2.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
               </div>
               
             </div>
