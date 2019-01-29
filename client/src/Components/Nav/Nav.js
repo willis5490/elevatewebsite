@@ -10,14 +10,14 @@ class Nav extends Component {
        <nav id = 'header' className="uk-navbar-container uk-margin" uk-navbar='true' uk-navbar="mode: click">
             <div className="uk-navbar-left uk-visible@m ">
                 <ul className="uk-navbar-nav">
-                    <li className=""><a href = "/"><img id='logo-nav' src = "../Images/download.png"></img></a></li>
+                    <li className=""><a href = "/"><img id='logo-nav' src = "../Images/download.png" alt='Elevate chair massage logo Denver, CO'></img></a></li>
                     
                 </ul>
             </div>
             <div className="uk-navbar-center uk-visible@m">
                 <ul className="uk-navbar-nav">
                     <li className=""><a href="/">Home</a></li>
-                    <li className=""><a href="/chair-massage">Mobile + Corporate Massage</a></li>
+                    <li className=""><a href="/chair-massage">Corporate Chair Massage</a></li>
                     <li className=""><a href="/yoga">Yoga</a></li>
                     <li className=""><a href="/team-members">Elevate Team</a></li>
                     <li className=""><a href="/partners">Partnerships</a></li>
@@ -36,7 +36,7 @@ class Nav extends Component {
                                 <ul className="uk-nav uk-nav-default">
                                     <li className="uk-nav-header">
                                         <a className="uk-offcanvas-close" uk-close>X</a>
-                                        <img id='logoMobile' className="uk-margin-small-right" src="../Images/download.png" width="50" height="50" alt="" uk-img></img>
+                                        <img id='logoMobile' className="uk-margin-small-right" src="../Images/download.png" width="50" height="50" alt='Elevate chair massage logo Denver, CO' uk-img></img>
                                     </li>
                                     <li className="uk-nav-divider"></li>
 

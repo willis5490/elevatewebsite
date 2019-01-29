@@ -18,6 +18,7 @@
 .uk-button{
     background-color: #59c5aa;
     font-size: .875rem;
+    font-family: 'Quicksand', sans-serif;
 }
 .uk-button:hover{
     background-color: #212121;
@@ -28,6 +29,9 @@
 }
 #mobileMenu{
     margin-top: 50%;
+}
+.uk-navbar-nav>li>a{
+    font-family: 'Quicksand', sans-serif;
 }
  /* mobile response */
  @media only screen and (max-width: 1325px) { 

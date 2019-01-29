@@ -60,7 +60,7 @@ class Contact extends Component {
      return (
       <div className="uk-container">
        <div className="uk-section">
-         <h1 className="uk-heading-line">{`ELEVATE CHAIR MASSAGE + BODYWORK`}</h1>
+         <h1 className="uk-heading-line">{`ELEVATE CHAIR MASSAGE`}</h1>
  
          <h2 className='contactHeader uk-margin-remove'>PROVIDING ON-SITE CHAIR MASSAGE SERVICES FOR EVENTS, PARTIES, AND COMPANIES OF ALL SIZES.</h2>
 

@@ -1,6 +1,7 @@
 html{
     background-color: #E1E1E1;
+    font-family: 'Quicksand', sans-serif;
 }
-/* .uk-container{
-    background-color: white
-} */
+h1,h2,h3,h4,h5,h6,p{
+      font-family: 'Quicksand', sans-serif;
+}
