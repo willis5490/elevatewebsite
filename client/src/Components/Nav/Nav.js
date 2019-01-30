@@ -40,13 +40,13 @@ class Nav extends Component {
                                     </li>
                                     <li className="uk-nav-divider"></li>
 
-                                    <li className=""><a href="/">Home</a></li>
-                                    <li className=""><a href="/chair-massage">Mobile + Corporate Massage</a></li>
-                                    <li className=""><a href="/yoga">Yoga</a></li>
-                                    <li className=""><a href="/team-members">Elevate Team</a></li>
-                                    <li className=""><a href="/partners">Partnerships</a></li>
-                                    <li className=""><a href="/reviews">Reviews</a></li>
-                                    <li className=""><a href="/contact">Contact Us</a></li>
+                                    <li className="mobileMenuText"><a href="/">Home</a></li>
+                                    <li className="mobileMenuText"><a href="/chair-massage">Mobile + Corporate Massage</a></li>
+                                    <li className="mobileMenuText"><a href="/yoga">Yoga</a></li>
+                                    <li className="mobileMenuText"><a href="/team-members">Elevate Team</a></li>
+                                    <li className="mobileMenuText"><a href="/partners">Partnerships</a></li>
+                                    <li className="mobileMenuText"><a href="/reviews">Reviews</a></li>
+                                    <li className="mobileMenuText"><a href="/contact">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>

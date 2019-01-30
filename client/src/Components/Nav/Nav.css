@@ -33,6 +33,14 @@
 .uk-navbar-nav>li>a{
     font-family: 'Quicksand', sans-serif;
 }
+.mobileMenuText{
+    font-size: 18px;
+}
+
+
+
+
+
  /* mobile response */
  @media only screen and (max-width: 1325px) { 
     .uk-button{
