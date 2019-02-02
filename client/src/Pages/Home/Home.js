@@ -12,7 +12,7 @@ class Home extends Component {
         
         
         <div id='mainlogo' className='uk-text-center uk-align-center'>
-          <img id="home-logo" src = "../Images/download.png" alt='Elevate chair massage logo Denver, CO'></img>
+          <img id="home-logo" src = "../Images/elevate_logo1.png" alt='Elevate chair massage logo Denver, CO'></img>
           <h1 id='home-statement'><b>DENVERS PREMIER ON-SITE<br></br> CHAIR MASSAGE</b></h1>
           <a href='/chair-massage'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
         </div>

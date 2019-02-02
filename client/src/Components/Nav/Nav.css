@@ -6,11 +6,14 @@
     background-color: #212121;
 }
 #logo-nav{
-    width: 170px;
-    height: 100px;
+    width: 155px;
+    height: 125px;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding-left: 15px;
+    margin-left: 20px;
 }
+
 .uk-navbar-nav>li>a:hover {
     color: #59c5aa
 }
@@ -26,6 +29,8 @@
 }
 #logoMobile{
     margin-bottom: 13px;
+    height: 100px;
+    width: 100px;
 }
 #mobileMenu{
     margin-top: 50%;
