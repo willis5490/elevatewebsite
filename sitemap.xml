@@ -1,0 +1,70 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ 
+
+<url>
+<loc>https://www.elevatemassageco.com/</loc>
+<lastmod>2019-02-05T03:54:20+00:00</lastmod>
+<priority>0.9</priority>
+<image:image>
+      <image:loc>https://www.elevatemassageco.com/elevate_logo_textonly.png</image:loc>
+      <image:title>Elevate chair massage lodo Denver, CO</image:title>
+      <image:geo_location>Denver, Colorado</image:geo_location>
+</image:image>
+<image:image>
+      <image:loc>https://www.elevatemassageco.com/elevate-employee3.jpg</image:loc>
+      <image:title>Chair massage being given in Denver, CO</image:title>
+      <image:geo_location>Denver, Colorado</image:geo_location>
+</image:image>
+<image:image>
+      <image:loc>https://www.elevatemassageco.com/jill-homepage.jpg</image:loc>
+      <image:title>Chair massage being given in Denver, CO</image:title>
+      <image:geo_location>Denver, Colorado</image:geo_location>
+</image:image>
+</url>
+
+<url>
+<loc>https://www.elevatemassageco.com/chair-massage</loc>
+<lastmod>2019-01-25T01:05:55+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://www.elevatemassageco.com/yoga</loc>
+<lastmod>2019-01-25T01:05:55+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.1</priority>
+</url>
+
+<url>
+<loc>https://www.elevatemassageco.com/team-members</loc>
+<lastmod>2019-01-25T01:05:55+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.4</priority>
+</url>
+
+<url>
+<loc>https://www.elevatemassageco.com/partners</loc>
+<lastmod>2019-01-25T01:05:55+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>https://www.elevatemassageco.com/reviews</loc>
+<lastmod>2019-01-25T01:05:55+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://www.elevatemassageco.com/contact</loc>
+<lastmod>2019-01-25T01:05:55+00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.6</priority>
+</url>
+
+</urlset>

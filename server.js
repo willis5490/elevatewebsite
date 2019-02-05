@@ -3,6 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 const sgMail = require('@sendgrid/mail')
 const router = require("./routes");
+const path = require("path");
 require("dotenv").config();
 
 
@@ -31,6 +32,11 @@ if (process.env.NODE_ENV === "production") {
 //send to react app!
 app.use(router);
 
+// sitemap
+app.get('/sitemap', (req,res)=>{
+  res.sendFile(path.join(__dirname, "./sitemap.xml"));
+})
+
 // emial setup
 // =============================================================
 
@@ -41,7 +47,7 @@ app.post('/sendEmail', function(req, res) {
     let Inquiry = JSON.stringify(req.body.inquiry)
     let Message = JSON.stringify(req.body.message)
     
-    sgMail.setApiKey('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');
+    sgMail.setApiKey(process.env.key);
   const msg = {
     to: 'jill@elevatebodywork.com',
     from: Email,
