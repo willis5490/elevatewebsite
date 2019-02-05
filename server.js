@@ -32,10 +32,7 @@ if (process.env.NODE_ENV === "production") {
 //send to react app!
 app.use(router);
 
-// sitemap
-app.get('/sitemap', (req,res)=>{
-  res.sendFile(path.join(__dirname, "./sitemap.xml"));
-})
+
 
 // emial setup
 // =============================================================
