@@ -15,7 +15,7 @@ class Nav extends Component {
                 </ul>
             </div>
             <div className="uk-navbar-center uk-visible@m">
-                <ul className="uk-navbar-nav">
+                <ul id="middlenav" className="uk-navbar-nav">
                     <li className=""><a href="/">Home</a></li>
                     <li className=""><a href="/chair-massage">Corporate Chair Massage</a></li>
                     <li className=""><a href="/yoga">Yoga</a></li>
