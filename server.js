@@ -47,7 +47,7 @@ app.post('/sendEmail', function(req, res) {
     let Inquiry = JSON.stringify(req.body.inquiry)
     let Message = JSON.stringify(req.body.message)
     
-    sgMail.setApiKey(process.env.key);
+    sgMail.setApiKey('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');
   const msg = {
     to: 'jill@elevatebodywork.com',
     from: Email,
