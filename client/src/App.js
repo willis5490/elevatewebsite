@@ -13,7 +13,8 @@ import Partners from './Pages/Partners/Partners.js';
 import Reviews from './Pages/Reviews/Reviews.js';
 import Team from './Pages/Team-members/Team-members.js';
 import Yoga from './Pages/Yoga/Yoga.js';
-import BookApt from './Pages/BookApt/BookApt.js'
+import BookApt from './Pages/BookApt/BookApt.js';
+import NotFound from './Pages/NotFound/NotFound.js';
 
 
 class App extends Component {
@@ -32,6 +33,7 @@ class App extends Component {
               <Route exact path="/reviews" render={props =><Reviews/>} />
               <Route exact path="/team-members" render={props =><Team/>} />
               <Route exact path="/yoga" render={props =><Yoga/>} />
+              <Route render={props =><NotFound/>}/>
             </Switch>
           
         <Footer></Footer>
