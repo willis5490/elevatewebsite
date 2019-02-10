@@ -8,14 +8,15 @@ class Home extends Component {
   render() {
     return (
         <div>
-        <img id="home-picture" src = "../Images/test1.jpg" alt='sand swirls Elevate chair massage, Denver, CO'></img>
-        
-        
-        <div id='mainlogo' className='uk-text-center uk-align-center'>
-          <img id="home-logo" src = "../Images/elevate_logo_textonly.png" alt='Elevate chair massage lodo Denver, CO'></img>
-          <h1 id='home-statement'><b>DENVERS PREMIER ON-SITE<br></br> CHAIR MASSAGE</b></h1>
-          <a href='/chair-massage'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
-        </div>
+       
+
+        <div id='mainlogo' class="uk-height-large uk-background-cover  uk-flex uk-flex-top homeHeadPiece" style={{backgroundImage: "url(./Images/test1.jpg)", backgroundSize: "cover",   }}>
+            <div id="quicky" class="uk-width-1-1@xs uk-text-center uk-margin-auto uk-margin-auto-vertical ">
+              <img id="home-logo" src = "../Images/elevate_logo_textonly.png" alt='Elevate chair massage lodo Denver, CO'></img>
+              <h1 id='home-statement'><b>DENVERS PREMIER ON-SITE<br></br> CHAIR MASSAGE</b></h1>
+              <a href='/chair-massage'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
+            </div>
+          </div>
 
       
         
