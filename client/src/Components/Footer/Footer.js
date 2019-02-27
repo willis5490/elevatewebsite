@@ -16,7 +16,7 @@ class Footer extends Component {
           </div>
           <div id='centerfooter' className="uk-width-1-3 uk-text-center uk-visible@m footletters ">
                 <h3 className='footheaders'>Contact Info</h3>
-                <a className='contactNavLetters' href='/contact'><p>Email: JILL@ELEVATEBODYWORK.COM</p></a>
+                <a href='/contact'><p className='contactNavLetters uk-margin-remove'>Email: INFO@ELEVATEMASSAGECO.COM</p></a>
                 <a className='contactNavLetters' href="tel:303-928-9739"><p>Phone: (303) 928-9739</p></a>
                 
           </div>
@@ -32,12 +32,12 @@ class Footer extends Component {
         {/* mobile view */}
         <div className="uk-hidden@m">
               <div id="leftmobilefooter" className="uk-width-1-1 uk-text-center uk-align-center">
-                <img id="footer-logo" src='../Images/download.png'></img>
+                <img id="footer-logo" src='../Images/elevate_logo_textonly.png'></img>
                 <h4 id='copywritemobile' className='footheaders'>© 2019 Elevate Bodywork LLC. All rights reserved.</h4>
           </div>
           <div className="uk-width-1-1 uk-text-center centermobilefoot">
                 <h3 className='footheaders uk-margin-remove'>Contact Info</h3>
-                <a href='/contact'><p className='contactNavLetters uk-margin-remove'>Email: JILL@ELEVATEBODYWORK.COM</p></a>
+                <a href='/contact'><p className='contactNavLetters uk-margin-remove'>Email: INFO@ELEVATEMASSAGECO.COM</p></a>
                 <a href="tel:303-928-9739"><p className='contactNavLetters ' >Phone: (303) 928-9739</p></a>
                
           </div>
