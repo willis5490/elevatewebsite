@@ -16,7 +16,7 @@ class Footer extends Component {
           </div>
           <div id='centerfooter' className="uk-width-1-3 uk-text-center uk-visible@m footletters ">
                 <h3 className='footheaders'>Contact Info</h3>
-                <a href='/contact'><p className='contactNavLetters uk-margin-remove'>Email: INFO@ELEVATEMASSAGECO.COM</p></a>
+                <a href='/contact'><p className='contactNavLetters '>Email: INFO@ELEVATEMASSAGECO.COM</p></a>
                 <a className='contactNavLetters' href="tel:303-928-9739"><p>Phone: (303) 928-9739</p></a>
                 
           </div>
