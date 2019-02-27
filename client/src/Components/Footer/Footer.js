@@ -11,7 +11,7 @@ class Footer extends Component {
         <nav id="secondfooter" className="uk-navbar-container uk-text-center uk-visible@m" uk-navbar='true' uk-navbar="mode: click">
         
           <div id="leftfooter" className="uk-width-1-3 uk-text-center  uk-visible@m">
-                <img id="footer-logo" src='../Images/download.png'></img>
+                <img id="footer-logo" src='../Images/elevate_logo_textonly.png'></img>
                 <h4 id='copyfooter' className='footheaders uk-margin-remove-top'>© 2019 Elevate Bodywork LLC. All rights reserved.</h4>
           </div>
           <div id='centerfooter' className="uk-width-1-3 uk-text-center uk-visible@m footletters ">

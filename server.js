@@ -46,7 +46,7 @@ app.post('/sendEmail', function(req, res) {
     
     sgMail.setApiKey('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');
   const msg = {
-    to: 'jill@elevatebodywork.com',
+    to: 'info@elevatemassageco.com',
     from: Email,
     subject: Name + "wrote you an email",
     text: Inquiry,
