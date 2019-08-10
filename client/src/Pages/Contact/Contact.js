@@ -23,7 +23,7 @@ class Contact extends Component {
      }else if(this.state.message === ''){
       alert("ALL FIELDS ARE REQUIRED!")
      }else {
-      axios.post(`/sendEmail`, {
+      axios.post('https://www.elevatemassageco.com/sendEmail', {
         email: this.state.email,
          name: this.state.name,
          inquiry: this.state.inquiry,

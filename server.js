@@ -4,12 +4,15 @@ const PORT = process.env.PORT || 3001;
 const sgMail = require('@sendgrid/mail')
 const router = require("./routes");
 const path = require("path");
+const cors = require('cors')
 require("dotenv").config();
 
 
 const bodyParser = require("body-parser");
 
 // Defining middleware
+
+app.use(cors())
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
@@ -44,10 +47,10 @@ app.post('/sendEmail', function(req, res) {
     let Inquiry = JSON.stringify(req.body.inquiry)
     let Message = JSON.stringify(req.body.message)
     
-    sgMail.setApiKey('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');
+    sgMail.setApiKey('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');
   const msg = {
     to: 'info@elevatemassageco.com',
-    from: Email,
+    from: 'info@elevatemassageco.com',
     subject: Name + "wrote you an email",
     text: Inquiry,
     html: Name + " has a message for you. The message says:   " + Message +". ---- respond to:  " + Email,
