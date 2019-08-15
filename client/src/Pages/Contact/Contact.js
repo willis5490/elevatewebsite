@@ -64,7 +64,7 @@ class Contact extends Component {
  
          <h2 className='contactHeader uk-margin-remove'>PROVIDING ON-SITE CHAIR MASSAGE SERVICES FOR EVENTS, PARTIES, AND COMPANIES OF ALL SIZES.</h2>
 
-         <h4 id='formheader'>MESSAGE US FOR MORE INFORMATION:</h4>
+         {/* <h4 id='formheader'>MESSAGE US FOR MORE INFORMATION:</h4> */}
  
          <div className="formDiv ">
            <form>
