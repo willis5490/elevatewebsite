@@ -30,11 +30,13 @@ class Contact extends Component {
          message: this.state.message
        })
          .then((response) => {
-          alert('Your Email has been sent.')
+           console.log(response);         
          })
          .catch((err) => {
            console.log(err)
          })
+         alert('Your Email has been sent.')
+         this.emptyFields()
      }
     
    
@@ -121,7 +123,7 @@ class Contact extends Component {
                </div>
              </fieldset>
            </form>
-           <button onClick={()=>{this.sendEmail(); this.emptyFields();}} id="send-button" type="submit" name="action" className="center uk-button uk-button-primary uk-button-large uk-width-large">Send</button>
+           <button onClick={this.sendEmail} id="send-button" type="submit" name="action" className="center uk-button uk-button-primary uk-button-large uk-width-large">Send</button>
          </div>
        </div>
        </div>
