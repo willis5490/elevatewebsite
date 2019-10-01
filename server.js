@@ -53,7 +53,7 @@ app.post('/sendEmail', function(req, res) {
     from: 'info@elevatemassageco.com',
     subject: Name + "wrote you an email",
     text: Inquiry,
-    html: Name + " has a message for you. The message says:   " + Message +". ---- respond to:  " + Email,
+    html: Name + " has a message for ya. The message says:   " + Message +". ---- respond to:  " + Email,
   };
 
   sgMail.send(msg);

@@ -16,7 +16,7 @@ class Team extends Component {
         <div className="uk-width-1-2">
           <h1 id='teamHeader'>JILL CHRISTENSEN</h1>
           <h2 id='teamsubHeader'>OWNER, MASSAGE THERAPIST</h2>
-          <p>Elevate Chair Massage is a locally owned business based out of Denver, Colorado. As the owner of Elevate Cahir Massage since 2016,
+          <p>Elevate Chair Massage is a locally owned business based out of Denver, Colorado. As the owner of Elevate Chair Massage since 2016,
              Jill integrates her degree in social work and training in massage therapy into a passion to serve the community. 
              Providing chair massage to the community workers serving in schools, hospitals, and non-profits provides a much needed 
              reprieve from the work they endure. Implementing corporate wellness is now an integral part of any company. Purpose, integrity, 
