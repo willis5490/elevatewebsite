@@ -43,6 +43,21 @@ class Team extends Component {
             <img className='teamPics' src='../Images/employees1.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
           </div>
         </div>
+        <div className="uk-width-1-3">
+          <div>
+            <img className='teamPicsNew' src='../Images/IMG_6566.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
+          </div>
+        </div>
+        <div className="uk-width-1-3">
+          <div>
+            <img className='teamPicsNew' src='../Images/IMG_6568.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
+          </div>
+        </div>
+        <div className="uk-width-1-3">
+          <div>
+            <img className='teamPicsNew' src='../Images/IMG_6570.jpg' alt='Elevate employees doing chair massage in Denver, CO'></img>
+          </div>
+        </div>
       </div>
       </div>
     );

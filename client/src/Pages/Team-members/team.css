@@ -13,12 +13,24 @@
     width: 580px;
     height: 386px;;
 }
+.teamPicsNew{
+    width: 100%;
+    height: 100%;
+}
 
  /* mobile response */
 
  @media only screen and (max-width: 900px) { 
     #teamBody{
         font-size: 15px;
+    }
+    .teamPicsNew{
+        width: 100%;
+        height: 100%;
+    }
+    .teamPics{
+        width: 100%;
+        height: 300px;;
     }
     
  }
@@ -35,5 +47,9 @@
     .teamPics{
         width: 280px;
         height: 186px;;
+    }
+    .teamPicsNew{
+        width: 88%;
+        height: 50%;
     }
 }
