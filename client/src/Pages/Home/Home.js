@@ -16,7 +16,7 @@ class Home extends Component {
             <div id="quicky" class="uk-width-1-1@xs uk-text-center uk-margin-auto uk-margin-auto-vertical ">
               <h1 id='homeStatement'>READY TO MAKE EMPLOYEE WELLNESS A PRIORITY?</h1>
               <h3 id='homeStatement'><b>Elevate Massage Co Specializes in On Site Chair Massage,
-                Yoga, and Mindful Meditation</b> <br></br> 303-928-9739 || info@elevatemassageco.com
+                Yoga, and Mindful Meditation</b> <br></br> 303-928-9739 <span className='uk-visible@m'>||</span> info@elevatemassageco.com
  </h3>
               <a href='/WorkWithUs'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
             </div>

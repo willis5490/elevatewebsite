@@ -45,7 +45,7 @@ class WorkWithUs extends Component {
                 <h3 className='uk-margin-remove-top uk-margin-medium-bottom uk-text-left'>We bring wellness to your workplace.</h3>
             </div>
             <div>
-              <h3 className='uk-text-left'>
+              <h3 className='uk-text-left workWithUsUpperText'>
               With a focus on mind and body, we partner with you to create customized
               wellness programs that cultivate a culture of connectivity, productivity and
               wellbeing. Our work-place on-site massages, mindfulness and meditation, and
@@ -87,7 +87,9 @@ class WorkWithUs extends Component {
                 <a href='/contact'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
             </div>
             <div className='uk-width-1-3@s uk-width-1-1'>
-              <h3 className='uk-text-left'>YOGA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
+              <h3 className='uk-text-left uk-visible@m'>YOGA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
+              <h3 className='uk-text-left uk-hidden@m'>YOGA </h3>
               <p className='uk-text-left'>Offer your employees the opportunity to destress, refocus and recharge within
               your office. Our team of certified yoga instructors facilitate workplace yoga classes that
               are suitable for all levels and are proven to have a wide range of holistic benefits

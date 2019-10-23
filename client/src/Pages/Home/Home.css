@@ -201,9 +201,10 @@ h1,h2,h3{
        width: 60%;
        height: 150px;
     }
-    #home-statement{
-        color: white;
-        font-size: 17px;
+    #homeStatement{
+       
+        margin-left: 1% !important;
+    margin-right: 1% !important;
     
     }
     
