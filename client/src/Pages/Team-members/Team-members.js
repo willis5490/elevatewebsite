@@ -14,14 +14,21 @@ class Team extends Component {
           </div>
         </div>
         <div className="uk-width-1-2">
-          <h1 id='teamHeader'>JILL CHRISTENSEN</h1>
-          <h2 id='teamsubHeader'>OWNER, MASSAGE THERAPIST</h2>
-          <p>Elevate Chair Massage is a locally owned business based out of Denver, Colorado. As the owner of Elevate Chair Massage since 2016,
-             Jill integrates her degree in social work and training in massage therapy into a passion to serve the community. 
-             Providing chair massage to the community workers serving in schools, hospitals, and non-profits provides a much needed 
-             reprieve from the work they endure. Implementing corporate wellness is now an integral part of any company. Purpose, integrity, 
-             and professionalism are a part of what makes Elevate Chair Massage Denver's premiere on-site chair massage vendor. We strive to serve 
-             the community and corporate partners by making company wellness a part of everyone's company culture.</p>
+          <h1 id='teamHeader' className='uk-margin-remove-bottom'>JILL CHRISTENSEN</h1>
+          <h2 id='teamsubHeader' className='uk-margin-remove-top'>OWNER, MASSAGE THERAPIST</h2>
+          <p className='uk-text-left'>Elevate Chair Massage is a locally owned business based out of Denver, Colorado. As
+          the Owner of Elevate Chair Massage since 2016, Jill integrates her degree in Social
+          Work and training in Massage Therapy into a passion to serve the community. Providing
+          chair massage to the community workers serving in schools, hospitals, and non-profits
+          provides a much needed reprieve from the work they endure. Implementing corporate
+          wellness is now an integral part of any company. Purpose, integrity, and
+          professionalism are a part of what makes Elevate Chair Massage Denver's premiere
+          on-site chair massage vendor. We strive to serve the community and corporate partners
+          by making company wellness a part of everyone's company culture.
+          </p>
+          <p>Convenient online scheduling for on-site chair massage for events, private parties, and
+            companies of all sizes.
+            </p>
         </div>
         <div className="uk-width-1-2">
           <div>

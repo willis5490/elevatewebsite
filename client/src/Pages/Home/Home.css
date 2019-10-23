@@ -1,11 +1,24 @@
 
-
+#homeStatement{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #E1E1E1;
+    color: black;
+}
 #mainlogo{
    width: 100%;
     height: 595px;
     margin-top: -21px;
     -webkit-background-origin:border;
+    background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
     
+}
+.homeServicesSection{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 80px;
+    margin-bottom: 90px;
 }
 #quicky{
     margin-top: -210px;

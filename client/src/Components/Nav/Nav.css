@@ -2,8 +2,12 @@
    font-size: 15px;
 
 }
+.uk-offcanvas-bar{
+    background-color: white;
+
+}
 #header{
-    background-color: #212121;
+    background-color: white;
 }
 #logo-nav{
     width: 155px;
@@ -16,6 +20,9 @@
 
 .uk-navbar-nav>li>a:hover {
     color: #59c5aa
+}
+.navText{
+    color: black !important;
 }
 
 .uk-button{
@@ -33,20 +40,28 @@
     width: 100px;
 }
 #mobileMenu{
-    margin-top: 50%;
+    margin-top: 50%;    
 }
 .uk-navbar-nav>li>a{
     font-family: 'Quicksand', sans-serif;
+    font-size: 18px !important;
     
 }
 .mobileMenuText{
     font-size: 18px;
+    color: black !important;
 }
 
 #middlenav{
     margin-right: 55px;
 }
-
+.uk-nav-divider{
+    color: black !important;
+    background-color: black !important;
+}
+.uk-offcanvas-close{
+    color: black !important;
+}
 
 
  /* mobile response */
@@ -55,8 +70,8 @@
        font-size: 12px;
    }
    .uk-navbar-nav>li>a {
-    font-size: 14px;
-    padding: 8px;
+    font-size: 18px !important;
+    padding: 18px;
     } 
 
 
@@ -69,7 +84,7 @@
    }
    .uk-navbar-nav>li>a {
     font-size: 12px;
-    padding: 5px;
+    padding: 10px;
     }
     
 
