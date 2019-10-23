@@ -46,12 +46,12 @@ class WorkWithUs extends Component {
             </div>
             <div>
               <h3 className='uk-text-left workWithUsUpperText'>
-              With a focus on mind and body, we partner with you to create customized
-              wellness programs that cultivate a culture of connectivity, productivity and
-              wellbeing. Our work-place on-site massages, mindfulness and meditation, and
-              yoga programs help you elevate your company’s culture. With Elevate Massage Co 
-              you can expect employee morale to increase so your team can get back to
-              doing what it does best.
+              With a focus on mind and body, we partner with you to create customized wellness
+              programs that cultivate a culture of connectivity, productivity and wellbeing. Enhance
+              morale and alleviate muscle tension with workplace mobile chair massage. The team at
+              Elevate Massage Co provides professional, individualized on-site massage to enhance
+              overall wellbeing. On-site massage is a cost effective way to ensure participation,
+              appreciation, and stress reduction.
               </h3>
             </div>
             
@@ -120,32 +120,46 @@ class WorkWithUs extends Component {
         </div>
 
         <div>
-          <div className='uk-container'>
-            <h2>Elevate Massage Co specializes in Corporate On Site Massage and Wellness</h2>
-            <div className='specialBulletSection'>
-              <ul>
-                <li>Corporate Offices, Employee Appreciation</li>
-                <li>Convention Center, Trade Show, and Sport Events</li>
-                <li>Health Care, Hospitals, and Office Wellness Events</li>
-                <li>Non Profits and Schools</li>
-                <li>On Site All Level Yoga Classes</li>
-                <li>Amenities for Luxury Apartments</li>
-              </ul>
+          <div className='uk-container'>      
+            <div uk-grid='true'>
+              <div className='uk-width-1-2@m uk-width-1-1 '>
+              <h2 className='bulletsMainFont'>Elevate Massage Co specializes in Corporate On Site Massage and Wellness</h2>
+                <ul className='bulletsFont'>
+                  <li>Corporate Offices, Employee Appreciation</li>
+                  <li>Convention Center, Trade Show, and Sport Events</li>
+                  <li>Health Care, Hospitals, and Office Wellness Events</li>
+                  <li>Non Profits and Schools</li>
+                  <li>On Site All Level Yoga Classes</li>
+                  <li>Amenities for Luxury Apartments</li>
+                </ul>
+              </div>
+              <div className='uk-width-1-2@m uk-width-1-1 '>
+                <img className='BulletsImage2' src="..\Images\elevate-employee3.jpg" alt=''></img>
+            </div>
+
             </div>
           </div>
         </div>
 
         <div>
-          <div className='uk-container uk-margin-large-top'>
-            <h2>Our Team brings the portable massage chair, and supplies ready to offer your
+          <div className='uk-container uk-margin-large-top'>            
+            <div uk-grid='true'>
+            <div className=' uk-width-2-3@m uk-width-1-1 '>
+            <h2 className='bulletsMainFont' >Our Team brings the portable massage chair, and supplies ready to offer your
               staff appreciation and stress management</h2>
-            <div className='specialBulletSection'>
-              <ul>
-                <li>Convenient online scheduling</li>
-                <li>Vetted, Licensed, Insured, and Trained Massage Therapists</li>
-                <li>Certificate Of Insurance for large corporate offices</li>
-                <li>We manage all aspects of event</li>           
-              </ul>
+              <div className='specialBulletSection'>
+                <ul className='bulletsFont'>
+                  <li>Convenient online scheduling</li>
+                  <li>Vetted, Licensed, Insured, and Trained Massage Therapists</li>
+                  <li>Certificate Of Insurance for large corporate offices</li>
+                  <li>We manage all aspects of event</li>           
+                </ul>
+              </div>
+            </div>
+            <div className='uk-width-1-3@m uk-width-1-1 uk-flex-first@m'>
+              <img className='BulletsImage' src='../Images/IMG_1026.jpg' alt=''></img>
+            </div>
+
             </div>
           </div>
         </div>

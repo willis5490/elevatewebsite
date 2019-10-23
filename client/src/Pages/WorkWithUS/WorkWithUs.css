@@ -20,12 +20,26 @@
 .hrBottomWorkWithPage{
     margin-top: 90px !important;
 }
+.bulletsFont{
+    font-size: 20px;
+    margin-left: 75px;
+}
+.BulletsImage{
+    width: 100%;
+    height: 400px;
+}
+.BulletsImage2{
+    width: 100%;
+    height: 400px;
+}
+.specialBulletSection{
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .chairCardHeaders{
     color: #59c5aa;
 }
-.specialBulletSection{
-    padding-left: 400px;
-}
+
 #chaircards{
     padding-bottom: 180px;
     padding-top: 10px;
@@ -92,17 +106,50 @@
 }
 
 
+@media only screen and (max-width: 950px) { 
+    .bulletsFont{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    .BulletsImage{
+        width: 100%;
+        height: 400px;
+    }
+    .BulletsImage2{
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
 
 
  /* mobile response */
  @media only screen and (max-width: 480px) { 
+    .bulletsFont{
+        font-size: 15px;
+        margin-left: 0px;
+    }
     #partnersHeader{
         font-size: 20px;
         margin-top: 40px;
     }
-    .specialBulletSection{
-        padding-left: 0px;
+    .bulletsMainFont{
+        font-size: 1.5rem !important;
     }
+
+    .BulletsImage{
+        width: 100%;
+        height: 400px;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .BulletsImage2{
+        width: 100%;
+        height: 250px;
+    }
+    
     .chairH1{
         margin-top: 40px;
         font-size: 25px;

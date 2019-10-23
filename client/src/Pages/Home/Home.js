@@ -14,11 +14,13 @@ class Home extends Component {
         <div>
         <div id='mainlogo' class="uk-height-large uk-background-cover  uk-flex uk-flex-top homeHeadPiece" style={{backgroundImage: "url(./Images/test1.jpg)", backgroundSize: "cover",   }}>
             <div id="quicky" class="uk-width-1-1@xs uk-text-center uk-margin-auto uk-margin-auto-vertical ">
-              <h1 id='homeStatement'>READY TO MAKE EMPLOYEE WELLNESS A PRIORITY?</h1>
-              <h3 id='homeStatement'><b>Elevate Massage Co Specializes in On Site Chair Massage,
-                Yoga, and Mindful Meditation</b> <br></br> 303-928-9739 <span className='uk-visible@m'>||</span> info@elevatemassageco.com
- </h3>
-              <a href='/WorkWithUs'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
+              <h1 id='homeStatement'>Bring Wellness On site with Denver’s Premiere On Site Chair
+              Massage and Wellness.</h1>
+              <h3 id='homeStatement2'> 303-928-9739 <span className='uk-visible@m'>||</span> info@elevatemassageco.com </h3>
+              <div className='uk-align-center'>
+                <img id='headerHomePic' src='../Images\Elevate Massage Oct 2019-34.jpg' alt=''></img>
+              </div>
+              <a href='/WorkWithUs'><button id="home-button" class="uk-button uk-button-primary" >Work With Us</button></a>
             </div>
           </div>
         </div>
@@ -27,29 +29,36 @@ class Home extends Component {
         
         <div className="uk-container">
         <div id="homeBody" className="uk-panel">
-          <h1 id='homeHeader'>CORPORATE ON-SITE AND MOBILE CHAIR MASSAGE<br></br> <b>BY ELEVATE CHAIR MASSAGE</b></h1>
+          <h1 id='homeHeader'><b>Ready to Elevate your employees’ Health and Happiness?</b></h1>
           <br></br>
           <div className='homeBody2'>
-          <h2 id='homesubhead' style={{color:'#59c5aa'}}>OUR MASSAGE THERAPISTS PROVIDE ON-SITE THERAPEUTIC CHAIR MASSAGE WITH AFFORDABLE OPTIONS FOR COMPANIES, EVENTS AND PARTIES.</h2>
-          <h3  className='homeBody2'>The team at Elevate Chair Massage provides professional, individualized on-site massage to enhance overall wellbeing. On-site massage is a cost effective 
+          <h2 id='homesubhead' style={{color:'#59c5aa'}}>
+            The Elevate team creates customized wellness programs that cultivate a culture of
+            connectivity, productivity and wellbeing in your workplace. Our on-site workplace
+            massages, mindfulness and meditation, and yoga programs are a cost-effective way to
+            incorporate comprehensive amenities that elevate your company’s culture and
+            employee morale so your team can get back to doing what it does best.
+          </h2>          
+          {/* <h3  className='homeBody2'>The team at Elevate Chair Massage provides professional, individualized on-site massage to enhance overall wellbeing. On-site massage is a cost effective 
             way to ensure participation, appreciation, and stress reduction. We have affordable options for companies, events, and parties. </h3>
           <h3  className='homeBody2'><b>We are passionate about elevating our community’s wellness with on-site massage. </b></h3>
           <h3  className='homeBody2'>Convenient online scheduling for on-site chair massage for events, private parties, and companies of all sizes. </h3>
-          <h3  className='homeBody2'><b>We are Ready to Make Change Happen!</b></h3>
+          <h3  className='homeBody2'><b>We are Ready to Make Change Happen!</b></h3> */}
           </div>
         </div>
 
         <div uk-grid='true' className='uk-margin-large-top  uk-margin-large-bottom uk-grid-match'>
           <div className='uk-width-1-3@s uk-width-1-1'>           
-            <img src='../Images\IMG_3295 (1).jpg' alt=''></img> 
+            <img className='imagesHomeThirds' src='../Images\IMG_3295 (1).jpg' alt=''></img> 
           </div>
           <div className='uk-width-1-3@s uk-width-1-1'>
-            <img src='../Images/trade show picture .jpg' alt=''></img>
+            <img className='imagesHomeThirds' src='../Images/trade show picture .jpg' alt=''></img>
           </div>
           <div className='uk-width-1-3@s uk-width-1-1'>
-            <img src='../Images\67060364_866176483768879_3729543424236322816_n.jpg' alt=''></img> 
+            <img className='imagesHomeThirds' src='../Images\67060364_866176483768879_3729543424236322816_n.jpg' alt=''></img> 
           </div>
         </div>
+        <a href='/WorkWithUs'><button id="home-button" class="uk-button uk-button-primary uk-align-center" >Learn More</button></a>
 
           <br></br>
           <hr style={{width:'100%', backgroundColor:'black', height:'3px'}}></hr>
@@ -70,16 +79,19 @@ class Home extends Component {
                     <a href='/contact'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
                 </div>
                 <div className='uk-width-1-3@s uk-width-1-1'>
-                  <h3 className='uk-text-left'>YOGA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
+                <h3 className='uk-text-left uk-hidden@m'>YOGA </h3>
+                  <h3 className='uk-text-left uk-visible@m ' style={{marginTop:'0px'}}>YOGA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
                   <p className='uk-text-left'>Offer your employees the opportunity to destress, refocus and recharge within
                   your office. Our team of certified yoga instructors facilitate workplace yoga classes that
                   are suitable for all levels and are proven to have a wide range of holistic benefits
                   including increased energy and productivity, enhanced employee attitudes, and the
-                  reversal of effects caused by repetitive motion.
+                  reversal of effects caused by repetitive motion. 
+                  <span className='uk-visible@m'>
                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    </span>                  
                   </p>
                   <a href='/contact'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
                 </div>
