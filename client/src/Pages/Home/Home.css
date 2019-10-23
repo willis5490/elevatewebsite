@@ -27,7 +27,8 @@
     margin-top: -21px;
     -webkit-background-origin:border;
     background-repeat: no-repeat !important;
-  background-attachment: fixed !important;
+    background-attachment: fixed !important;
+    -webkit-background-attachment: fixed !important;
     
 }
 .homeServicesSection{
