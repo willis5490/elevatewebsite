@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Router, Switch } from "react-router-dom";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 //create browser history
 import History from './Pages/History/History.js'
 //components
@@ -33,6 +35,7 @@ class App extends Component {
             </Switch>
           
         <Footer></Footer>
+        <ToastContainer position="bottom-center" autoClose={1600} />
         </div>
       </Router>
      

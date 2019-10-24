@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import axios from "axios";
+import './ContactForm.css'
+import { toast } from 'react-toastify';
+
 
 class ContactForm extends Component {
     state = {
@@ -8,17 +11,34 @@ class ContactForm extends Component {
         inquiry: '',
         message: ''
        }
+
+       notify = () => {
+        toast.success("Your Email Has Been Sent !", {
+          position: toast.POSITION.BOTTOM_CENTER
+        });
+      };
+      notifyError = () => {
+        toast.error("You Must Fill Out All Forms !", {
+          position: toast.POSITION.BOTTOM_CENTER
+        });
+      };
+      notifyError3 = () => {
+        toast.error("You Must Give A Valid Email !", {
+          position: toast.POSITION.BOTTOM_CENTER
+        });
+      };
      
        sendEmail = event => {
         //  event.preventDefault();
          if(this.state.name === ''){
-           alert("ALL FIELDS ARE REQUIRED!")
-         }else if(this.state.email === ''){
-          alert("ALL FIELDS ARE REQUIRED!")
+          this.notifyError();
+      
+         }else if(/[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/.test(this.state.email) == false){
+          this.notifyError3();
          }else if(this.state.inquiry === ''){
-          alert("ALL FIELDS ARE REQUIRED!")
+          this.notifyError();
          }else if(this.state.message === ''){
-          alert("ALL FIELDS ARE REQUIRED!")
+          this.notifyError();
          }else {
           axios.post('https://www.elevatemassageco.com/sendEmail', {
             email: this.state.email,
@@ -32,12 +52,13 @@ class ContactForm extends Component {
              .catch((err) => {
                console.log(err)
              })
-             alert('Your Email has been sent.')
+             this.notify()
              this.emptyFields()
          }
         
        
        };
+     
      
        handleInputChange = event => {
          const { name, value } = event.target;

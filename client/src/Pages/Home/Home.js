@@ -16,7 +16,7 @@ class Home extends Component {
             <div id="quicky" class="uk-width-1-1@xs uk-text-center uk-margin-auto uk-margin-auto-vertical ">
               <h1 id='homeStatement'>Bring Wellness On site with Denver’s Premiere On Site Chair
               Massage and Wellness.</h1>
-              <h3 id='homeStatement2'> 303-928-9739 <span className='uk-visible@m'>||</span> info@elevatemassageco.com </h3>
+              <h3 id='homeStatement2'> <a style={{color:"#59c5aa"}} href="tel:303-928-9739">303-928-9739</a> <span className='uk-visible@m'>||</span> info@elevatemassageco.com </h3>
               <div className='uk-align-center'>
                 <img id='headerHomePic' src='../Images\Elevate Massage Oct 2019-34.jpg' alt=''></img>
               </div>
