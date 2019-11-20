@@ -23,7 +23,7 @@ class Footer extends Component {
           <div id='rightfooter' className="uk-width-1-3 uk-text-center uk-visible@m footletters">
                 <h3 className='footheaders'>Follow Us</h3>
                 <a target='_blank' href = "https://www.facebook.com/elevatechairmassage/"><i class="fab fa-facebook fa-2x footheaders"></i></a>
-                    {/* <a href = ""><i class="fab fa-2x fa-linkedin footheaders"></i></a> */}
+                    <a target='_blank' href = ""><i class="fab fa-2x fa-instagram footheaders"></i></a>
           </div>
          
         </nav>
@@ -44,7 +44,7 @@ class Footer extends Component {
           <div id='rightmobilefooter' className="uk-width-1-1 uk-text-center">
                 <h3 className='footheaders'>Follow Us</h3>
                     <a target='_blank' href = "https://www.facebook.com/elevatechairmassage/"><i class="fab fa-facebook fa-2x footheaders"></i></a>
-                    {/* <a href = ""><i class="fab fa-linkedin fa-2x footheaders"></i></a> */}
+                    <a target='_blank' href = ""><i class="fab fa-instagram fa-2x footheaders"></i></a>
                    
           </div>
             </div>

@@ -180,5 +180,8 @@
     .workWithUsUpperText{
         font-size: 15px;
     }
+    .hrBottomWorkWithPage{
+        margin-top: 40px !important;
+    }
     
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Home.css'
 import ContactForm from '../../Components/ContactForm/ContactForm'
+import Instagram from '../../Components/Instagram/Instagram'
 
 
 class Home extends Component {
@@ -120,6 +121,8 @@ class Home extends Component {
         </div>
         </div>      
       </div>
+
+      <Instagram></Instagram>
 
 
       </div>

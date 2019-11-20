@@ -58,16 +58,7 @@ class Insta extends Component {
   render() {
     return (
         <div className='uk-margin-large-bottom' id='flourWrapper6'>
-        <div id='instagramcontainer' className='uk-container'>
-          <div className='uk-margin-medium-top' uk-grid='true'>
-            <div className='uk-width-1-2@m uk-width-1-1 uk-text-center'>
-              <h2 className='uk-text-left@m uk-text-center instagramTextAllPages'>#CHALLENGETHESTATUSQUO</h2>
-            </div>
-            <div className='uk-width-1-2@m uk-width-1-1'>
-              <a target="_blank" className='uk-align-right uk-visible@m' href='https://www.instagram.com/baiobarprotein/?hl=en'><span style={{ backgroundColor: 'red', color: 'white', margin: '5px' }} class="uk-icon-button " uk-icon="icon:instagram"></span></a>
-              <a target="_blank" className='uk-align-center uk-margin-remove-top uk-text-center uk-hidden@m' href='https://www.instagram.com/baiobarprotein/?hl=en'><span style={{ backgroundColor: 'red', color: 'white', margin: '5px' }} class="uk-icon-button " uk-icon="icon:instagram"></span></a>
-            </div>
-          </div>
+        <div id='instagramcontainer' className='uk-container'>         
           <div className='uk-grid-match' uk-grid='true'>
             <div className='uk-width-1-5@m uk-width-1-3@s uk-width-1-2 '>
               <img className='instagramPics' src={this.state.images[0]}></img>

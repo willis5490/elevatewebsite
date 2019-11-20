@@ -34,7 +34,7 @@ class Nav extends Component {
                                 <ul className="uk-nav uk-nav-default">
                                     <li className="uk-nav-header">
                                         <a className="uk-offcanvas-close" uk-close>X</a>
-                                        <img id='logoMobile' className="uk-margin-small-right" src="../Images/elevate_logo1.png" width="50" height="50" alt='Elevate chair massage logo Denver, CO' uk-img></img>
+                                        <a href = "/"><img id='logoMobile' className="uk-margin-small-right" src="../Images/elevate_logo1.png" width="50" height="50" alt='Elevate chair massage logo Denver, CO' uk-img></img></a>
                                     </li>
                                     <li className="uk-nav-divider"></li>
 

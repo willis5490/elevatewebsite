@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './WorkWithUs.css'
 import ContactForm from '../../Components/ContactForm/ContactForm'
+import Instagram from '../../Components/Instagram/Instagram'
 
 class WorkWithUs extends Component {
 
@@ -87,9 +88,8 @@ class WorkWithUs extends Component {
                 <a href='/contact'><button id="home-button" class="uk-button uk-button-primary" >Learn More</button></a>
             </div>
             <div className='uk-width-1-3@s uk-width-1-1'>
-              <h3 className='uk-text-left uk-visible@m'>YOGA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
-              <h3 className='uk-text-left uk-hidden@m'>YOGA </h3>
+            <h3 className='uk-text-left uk-hidden@m'>YOGA </h3>
+                  <h3 className='uk-text-left uk-visible@m ' style={{marginTop:'0px'}}>YOGA &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
               <p className='uk-text-left'>Offer your employees the opportunity to destress, refocus and recharge within
               your office. Our team of certified yoga instructors facilitate workplace yoga classes that
               are suitable for all levels and are proven to have a wide range of holistic benefits
@@ -199,6 +199,7 @@ class WorkWithUs extends Component {
         </div>
         </div>      
       </div>
+        <Instagram></Instagram>
 
 
       </div>
