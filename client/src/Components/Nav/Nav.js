@@ -20,6 +20,7 @@ class Nav extends Component {
                     <li className=""><a className='navText' href="/WorkWithUs">Work With Us</a></li>                   
                     <li className=""><a className='navText' href="/team-members">Elevate Team</a></li>                
                     <li className=""><a className='navText' href="/reviews">Reviews</a></li>
+                    <li ><a className='navText' href="/blogs">Blogs</a></li>
                     <li className=""><a className='navText' href="/contact">Contact Us</a></li>
                      
                 </ul>
@@ -42,6 +43,7 @@ class Nav extends Component {
                                     <li ><a className="mobileMenuText" href="/WorkWithUs">Work With Us</a></li>                                   
                                     <li ><a className="mobileMenuText" href="/team-members">Elevate Team</a></li>                                 
                                     <li ><a className="mobileMenuText" href="/reviews">Reviews</a></li>
+                                    <li ><a className="mobileMenuText" href="/blogs">Blogs</a></li>
                                     <li ><a className="mobileMenuText" href="/contact">Contact Us</a></li>
                                 </ul>
                             </div>

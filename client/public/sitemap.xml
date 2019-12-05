@@ -32,6 +32,12 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 </url>
 
 <url>
+<loc>https://www.elevatemassageco.com/blogs</loc>
+<lastmod>2019-02-05T04:22:16+00:00</lastmod>
+<priority>0.9</priority>
+</url>
+
+<url>
 <loc>https://www.elevatemassageco.com/contact</loc>
 <lastmod>2019-02-05T04:22:16+00:00</lastmod>
 <priority>0.3</priority>
